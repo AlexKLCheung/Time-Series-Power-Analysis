@@ -19,9 +19,9 @@ This project demonstrates a complete Data Science workflow: from **handling time
 ### 1. Feature Engineering
 Beyond basic calendar features (hour, day, month), I introduced a **Lag-24h** feature. This allows the XGBoost model to anchor its predictions on the previous day's consumption pattern, significantly capturing short-term trends.
 
-![Feature Importance](images/feature_importance.png)
+![Feature Importance](feature_importance.png)
 
-![Actual vs Prediction](images/prediction_vs_actual.png)
+![Actual vs Prediction](prediction_vs_actual.png)
 
 ### 2. Residual Diagnostics
 The residual boxplot reveals that while the model is accurate on average, variance increases during peak hours. This insight suggests that the current "Calendar-aware" model would benefit from becoming "Climate-aware" by integrating weather data (Temperature/Humidity).
