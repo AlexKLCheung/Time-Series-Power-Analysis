@@ -21,7 +21,7 @@ Beyond basic calendar features (hour, day, month), I introduced a **Lag-24h** fe
 
 ![Feature Importance](feature_importance.png)
 
-![Actual vs Prediction](prediction_vs_actual.png)
+![Actual vs Prediction](Prediction_vs_Actual.png)
 
 ### 2. Residual Diagnostics
 The residual boxplot reveals that while the model is accurate on average, variance increases during peak hours. This insight suggests that the current "Calendar-aware" model would benefit from becoming "Climate-aware" by integrating weather data (Temperature/Humidity).
